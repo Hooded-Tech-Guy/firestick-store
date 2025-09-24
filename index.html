@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firestick Store</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 16px; background: #f7f7f7; }
+  h1 { text-align: center; }
+  .app { display: flex; align-items: center; margin: 12px 0; background: #fff; padding: 8px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  .app img { width: 64px; height: 64px; margin-right: 12px; }
+  .app a { text-decoration: none; color: #0077cc; font-weight: bold; }
+  .app a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<h1>Firestick Store</h1>
+<div id="app-list">Loading apps...</div>
+
+<script>
+const storeURL = 'https://raw.githubusercontent.com/Hooded-Tech-Guy/firestick-store/main/stores.json';
+
+fetch(storeURL)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById('app-list');
+    container.innerHTML = '';
+    if(!data.apps || data.apps.length === 0) {
+      container.innerHTML = '<p>No apps found.</p>';
+      return;
+    }
+    data.apps.forEach(app => {
+      const div = document.createElement('div');
+      div.className = 'app';
+      const icon = app.icon ? `<img src="${app.icon}" alt="${app.name}">` : '';
+      div.innerHTML = `
+        ${icon}
+        <div>
+          <div><strong>${app.name}</strong> (v${app.version})</div>
+          <div><a href="${app.url}">Install / Download</a></div>
+        </div>
+      `;
+      container.appendChild(div);
+    });
+  })
+  .catch(err => {
+    document.getElementById('app-list').innerHTML = '<p>Error loading apps.</p>';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
