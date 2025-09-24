@@ -34,6 +34,111 @@
       "version": "1.20",
       "url": "https://f-droid.org/F-Droid.apk",
       "icon": "https://f-droid.org/assets/fdroid-icon.png"
+    },
+    {
+      "name": "VLC",
+      "package": "org.videolan.vlc",
+      "version": "3.7.4",
+      "url": "https://get.videolan.org/vlc-android/last/VLC.apk",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/3a/VLC_Icon.svg"
+    },
+    {
+      "name": "MX Player",
+      "package": "com.mxtech.videoplayer.ad",
+      "version": "1.48.6",
+      "url": "https://www.mxplayer.in/download/MXPlayer.apk",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/5/5c/MX_Player.png"
+    },
+    {
+      "name": "X-Plore File Manager",
+      "package": "com.lonelycatgames.Xplore",
+      "version": "4.32",
+      "url": "https://xplore-file-manager.en.uptodown.com/android/download",
+      "icon": "https://play-lh.googleusercontent.com/W0sznYV4K83kCU3VpOTJHkMoGHgXuq6iUvwyGbk5VAtq2mVne3IBh15bdGHfqXoKsw=w240-h480-rw"
+    },
+    {
+      "name": "RetroArch",
+      "package": "com.retroarch",
+      "version": "1.17",
+      "url": "https://buildbot.libretro.com/stable/1.17/android/RetroArch.apk",
+      "icon": "https://www.libretro.com/wp-content/uploads/2015/11/RA_Logo.png"
+    },
+    {
+      "name": "PPSSPP",
+      "package": "org.ppsspp.ppsspp",
+      "version": "1.14.3",
+      "url": "https://www.ppsspp.org/downloads/ppsspp_android.apk",
+      "icon": "https://www.ppsspp.org/images/ppsspp_logo.png"
+    },
+    {
+      "name": "Plex",
+      "package": "com.plexapp.android",
+      "version": "10.25",
+      "url": "https://plex.tv/downloads/plex-android.apk",
+      "icon": "https://plex.tv/favicon.ico"
+    },
+    {
+      "name": "Jellyfin",
+      "package": "org.jellyfin.mobile",
+      "version": "10.8.0",
+      "url": "https://repo.jellyfin.org/releases/mobile/android/jellyfin.apk",
+      "icon": "https://jellyfin.org/images/logo.svg"
+    },
+    {
+      "name": "Stremio",
+      "package": "com.stremio.one",
+      "version": "4.4.143",
+      "url": "https://www.stremio.com/downloads/stremio-android.apk",
+      "icon": "https://www.stremio.com/static/images/logo.png"
+    },
+    {
+      "name": "NewPipe (TV fork)",
+      "package": "org.schabi.newpipe",
+      "version": "0.23.13",
+      "url": "https://github.com/microg/NewPipe/releases/download/v0.23.13/NewPipe-release.apk",
+      "icon": "https://newpipe.net/images/logo.svg"
+    },
+    {
+      "name": "Moonlight",
+      "package": "com.limelight.moonlight",
+      "version": "2.4.8",
+      "url": "https://moonlight-stream.org/download/moonlight-apk.apk",
+      "icon": "https://moonlight-stream.org/img/logo.svg"
+    },
+    {
+      "name": "Steam Link",
+      "package": "com.valvesoftware.steamlink",
+      "version": "2.0.3",
+      "url": "https://store.steampowered.com/steamlink.apk",
+      "icon": "https://store.steampowered.com/favicon.ico"
+    },
+    {
+      "name": "Firefox TV",
+      "package": "org.mozilla.firefox",
+      "version": "113.0",
+      "url": "https://ftp.mozilla.org/pub/mobile/releases/113.0/android/firefox-113.0.apk",
+      "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-lg-high-res.7f2f9e6dded6.png"
+    },
+    {
+      "name": "ES File Explorer",
+      "package": "com.estrongs.android.pop",
+      "version": "4.2.1.9",
+      "url": "https://www.apkmirror.com/wp-content/uploads/2022/05/ES-File-Explorer.apk",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/f/f6/ES_File_Explorer.png"
+    },
+    {
+      "name": "File Commander",
+      "package": "com.mobisystems.fileman",
+      "version": "9.0.39610",
+      "url": "https://www.mobisystems.com/filecommander.apk",
+      "icon": "https://play-lh.googleusercontent.com/_lH5pHThTbR2-6x3ywQ_kVAp7ZyjklTVZb8Z07wypU4XPwPR_JkVfXgT7uJ0Fzk1Q=w240-h480-rw"
+    },
+    {
+      "name": "AIDA64",
+      "package": "com.finalwire.aida64",
+      "version": "2.99",
+      "url": "https://www.aida64.com/downloads/AIDA64-Android.apk",
+      "icon": "https://www.aida64.com/images/aida64_logo.png"
     }
   ]
 }
