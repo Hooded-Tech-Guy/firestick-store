@@ -1,0 +1,39 @@
+{
+  "apps": [
+    {
+      "name": "Kodi",
+      "package": "org.xbmc.kodi",
+      "version": "21.0",
+      "url": "https://mirrors.kodi.tv/releases/android/arm/kodi-21.0.apk",
+      "icon": "https://kodi.tv/favicon.ico"
+    },
+    {
+      "name": "SmartTubeNext",
+      "package": "com.liskovsoft.smarttubenext",
+      "version": "19.02",
+      "url": "https://github.com/yuliskov/SmartTubeNext/releases/download/stable/smarttubenext.apk",
+      "icon": "https://raw.githubusercontent.com/yuliskov/SmartTubeNext/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+      "name": "Aurora Store",
+      "package": "com.aurora.store",
+      "version": "4.3.5",
+      "url": "https://auroraoss.com/downloads/aurora-store.apk",
+      "icon": "https://auroraoss.com/assets/logo.png"
+    },
+    {
+      "name": "Aptoide TV",
+      "package": "cm.aptoidetv.pt",
+      "version": "5.1.2",
+      "url": "https://tv.aptoide.com/aptoide-tv-latest.apk",
+      "icon": "https://static.aptoide.com/web/static/media/logo.png"
+    },
+    {
+      "name": "F-Droid",
+      "package": "org.fdroid.fdroid",
+      "version": "1.20",
+      "url": "https://f-droid.org/F-Droid.apk",
+      "icon": "https://f-droid.org/assets/fdroid-icon.png"
+    }
+  ]
+}

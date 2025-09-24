@@ -1,4 +1,4 @@
-# # Firestick Store (Self-Hosted)
+# Firestick Store (Self-Hosted)
 
 This repo hosts a custom app catalog (`stores.json`) for Firestick sideloading.
 
@@ -20,3 +20,13 @@ Example:
   "url": "https://get.videolan.org/vlc-android/last/VLC.apk",
   "icon": "https://upload.wikimedia.org/wikipedia/commons/3/3a/VLC_Icon.svg"
 }
+```
+
+3. Commit your changes.  
+4. GitHub Pages will auto-update in a few minutes.
+
+## Store URL
+Your catalog will be live at:
+```
+https://<your-username>.github.io/firestick-store/stores.json
+```
